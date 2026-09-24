@@ -1,0 +1,17 @@
+# 统一行尾为 LF —— 确保 shell 脚本在任何平台 checkout 后都可执行
+# （Windows 上若被转成 CRLF，脚本会因 `bad interpreter` 而无法运行）
+
+* text=auto eol=lf
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+
+# 二进制文件不要做行尾转换
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.zip  binary
