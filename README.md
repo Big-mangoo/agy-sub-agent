@@ -143,6 +143,7 @@ Pick whichever form matches your tooling:
 agy-sub-agent/
 ├── README.md                     # This file (English)
 ├── README.zh-CN.md               # 简体中文版
+├── CONTRIBUTING.md               # Contribution guide
 ├── SKILL.md                      # Agent Skills specification format
 ├── AGENTS.md                     # AGENTS.md convention format
 ├── EVIDENCE.md                   # Measured evidence and data (traceable sources)
@@ -185,10 +186,13 @@ This README is intentionally self-contained — the four hard requirements, the 
 
 ## Contributing
 
-Contributions of new measured evidence, failure modes, and platform differences are welcome. Please:
+Contributions of new measured evidence, failure modes, and platform differences are welcome — see **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full guide.
+
+In short:
 
 - record **reproducible experimental conditions** in [`EVIDENCE.md`](EVIDENCE.md) (version, exact command, observed result) — not just conclusions;
-- clearly distinguish **measured** from **inferred**.
+- clearly distinguish **measured** from **inferred**;
+- run `agy --version` first — behavior changes between versions.
 
 ## License
 

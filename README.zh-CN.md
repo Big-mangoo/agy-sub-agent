@@ -142,6 +142,7 @@ result = d.get("structured_output") or json.loads(d["response"].strip().splitlin
 agy-sub-agent/
 ├── README.md                     # English（GitHub 默认展示）
 ├── README.zh-CN.md               # 本文件
+├── CONTRIBUTING.md               # 贡献规范
 ├── SKILL.md                      # Agent Skills 规范格式（通用技能文件）
 ├── AGENTS.md                     # AGENTS.md 约定格式
 ├── EVIDENCE.md                   # 实测证据与数据（结论的可追溯来源）
@@ -177,10 +178,15 @@ agy-sub-agent/
 
 ## 贡献
 
-欢迎补充新的实测数据、失败模式、平台差异。提交时请：
+欢迎补充新的实测数据、失败模式、平台差异 —— 完整规范见 **[CONTRIBUTING.md](CONTRIBUTING.md)**。
+
+简要要求：
 
 - 在 [`EVIDENCE.md`](EVIDENCE.md) 中记录**可复现的实验条件**（版本号、命令、观测结果），而不仅是结论；
-- 区分**实测**与**推测**。
+- 区分**实测**与**推测**；
+- 先核对 `agy --version` —— 行为随版本变化。
+
+> Issue 与 PR 可用中文或英文提交，均欢迎。
 
 ## 许可
 
