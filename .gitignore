@@ -1,0 +1,30 @@
+# 运行产物
+*.log
+output/
+out/
+tmp/
+temp/
+
+# 各示例脚本产生的中间文件
+*.tmp
+*.out.json
+*.err
+result*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地私密配置（切勿提交）
+*.local
+*.secret
+config.local.json
